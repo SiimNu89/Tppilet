@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+  <meta name="theme-color" content="#ff5000">
+  <link href="https://www.tpilet.ee/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+  <title>Piletid sinu teekonnale</title>
+
+  <meta content="width=device-width, initial-scale=1" name="viewport user-scalable=no">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      background: url('https://webcms.tpilet.ee/static/taustapilt.jpg') center/cover no-repeat fixed
+    }
+  </style>
+</head>
+<body class="h-screen m-0 flex-grow">
+  <header class="flex items-center bg-white h-20">
+    <div class="flex-grow flex justify-between">
+      <div class="flex-shrink=0"></div> 
+    <img src="https://www.tpilet.ee/faefcacd5ccdb53759f9e93de0ceeb85.svg"/>
+    <div class="flex gap-8 font-bold">
+      <a class="text-[18px] text-[#ff5000] hover:text-[#ff5000]" href="">Osta pilet</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Sõiduplaanid</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Pileti tagastamine</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Uudised</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Ärikliendileping</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Info</a>
+    </div>
+        <div class="flex items-center ml-4 text-sm text-gray-600">
+        <div class="flex-col">
+        <img src="https://www.tpilet.ee/7c2e32b9ab80a770995a6a8ffc6d0478.svg" class="h-4 w-4 mr-1">
+        <a href="tel:+37212550">12550</a>
+        <a href="mailto:info@tpilet.ee">info@tpilet.ee</a>
+      </div>
+      <div class="flex gap-8 items-center mx-8 text-gray-400 text-xl font-semibold">
+
+        <p class="text-[#ff5000] hover:text-[#ff5000]">ET</p>
+        <p class="text-gray-400 hover:text-[#ff5000]">EN</p>
+        <p class="text-gray-400 hover:text-[#ff5000]">RU</p>
+      </div>
+    </div>
+  </header>
+  <div class="flex flex-col justify-center items-center h-screen gap-8">
+    <h2 class="text-4xl">Osta bussipiletid</h2>
+    <div class="bg-white w-[390x] h-[500px]">
+      <div class="flex justify-around text-2xl font-semibold my-4 gap-8">
+        <p class="text-[#ff5000] border-b-2 border-[#ff5000]">Üks suund</p>
+        <p>Edasi-Tagasi</p>
+      </div>
+      <div class="max-w-sm mx-auto p-4 border border-gray-300 rounded-lg shadow-md bg-white">
+        <h2 class="text-xl font-bold mb-4">Reisi valik</h2>
+    
+        <div class="mb-4">
+            <label class="block text-gray-700 mb-1" for="Lähtepeatus">Lähtepeatus</label>
+            <select id="Lähtepeatus" class="w-full p-2 border border-gray-300 rounded">
+                <option value="">Lähtepeatus</option>
+                <option value="tallinn">Tallinn</option>
+                <option value="tartu">Tartu</option>
+                <option value="pärnu">Pärnu</option>
+                <option value="viljandi">Viljandi</option>
+                <option value="narva">Narva</option>
+              </select>
+        </div>
+    
+        <divclass=>
+            <label class="block text-gray-700 mb-1" for="Sihtpeatus">Sihtpeatus</label>
+            <select id="Sihtpeatus" class="w-full p-2 border border-gray-300 rounded">
+                <option value="">Sihtpeatus</option>
+                <option value="tallinn">Tallinn</option>
+                <option value="tartu">Tartu</option>
+                <option value="pärnu">Pärnu</option>
+                <option value="viljandi">Viljandi</option>
+                <option value="narva">Narva</option>
+            </select>
+            <input type="datetime-local">
+        <div class="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
+        <button class="bg-[#ff5000] h-20 w-40 rounded-md mt-8 lex-col items-center">Otsi Reise</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="object-position: left bottom"
+      src="https://webcms.tpilet.ee/static/Tpilet-usaldusvaarne-ettevote-2024.png"
+      class="max-w-full h-auto"
+    />
+    <img class="object-position: center-bottom"
+      src="https://webcms.tpilet.ee/static/Tpilet-gasellfirma-2024.png"
+      class="max-w-full h-auto"
+    />
+</body>
+</html>
+
+</head>
+
+<body>
